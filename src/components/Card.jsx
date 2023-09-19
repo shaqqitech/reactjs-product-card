@@ -65,7 +65,7 @@ const Card = () => {
   return (
     <main className="min-h-screen bg-gradient-to-r from-emerald-400 to-cyan-400 p-8 flex flex-col  md:justify-center items-center">
       <section className="w-full md:w-3/4 lg:w-2/3 xl:w-2/3 p-4 shadow-2xl rounded-lg relative border-4 border-white flex flex-col md:flex-row">
-      <div className="w-full md:w-1/2 lg:bg-gradient-to-r from-cyan-500 to-blue-500 p-4">
+      <div className="w-full md:w-1/2 lg:bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-lg">
           <img
             src={selectedProduct ? selectedProduct.src : ""}
             alt={selectedProduct ? selectedProduct.name : ""}
